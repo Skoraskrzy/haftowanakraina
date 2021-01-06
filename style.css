@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+
+}
+.orange-color{
+    color: rgba(255, 102, 0);
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+nav .navbar-nav{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+header{
+    position: relative;
+    height: 60rem;
+    background-image: url("./img/haftheader.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+header .btn{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+header-text{
+    font-size: 2.2rem;
+}
+.kolor{
+    color: darkblue;
+}
+hr{
+    height: 2px;
+    color: darkgray;
+    background-color: darkgray;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
